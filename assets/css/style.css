@@ -1,0 +1,77 @@
+.background{
+    background: red;
+}
+.headline {
+    background: greenyellow;
+    color: blue;
+    border: 1px solid black;
+    width: 40%;
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 36px;
+    text-align: center;
+    padding: 1%;
+}
+
+.instructions{
+    background: greenyellow;
+    color: blue;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size: 20px;
+    padding: 1%;
+    width: 40%;
+    border: 1px solid black;
+}
+
+.randomNumber {
+    background: grey;
+    color: whitesmoke;
+    margin-top: 1%;
+    margin-left: 2%;
+    border: 1px solid black;
+    float: left;
+    width: 25%;
+    padding: 2%;
+}
+
+.winsAndLosses {
+    background: gray;
+    color: whitesmoke;
+    margin-top: 1%;
+    margin-left: 1%;
+    border: 1px solid black;
+    float: left;
+    width: 10%;
+    padding: 2%
+}
+
+.crystals {
+    background: white;
+    width: 6%;
+    height: 5%;
+    margin-left: 2%;
+    border: 1px solid black;
+    float: left;
+    padding: 1%
+}
+
+.scoreHeadline {
+    background: gray;
+    color: whitesmoke;
+    margin-left: 2%;
+    margin-top: 1%;
+    border: 1px solid black;
+    width: 20%;
+    font-size: 20px;
+}
+
+.score {
+    background: grey;
+    color: whitesmoke;
+    margin-left: 2%;
+    margin-top: 1%;
+    border: 1px solid black;
+    width: 20%;
+    padding: 1%;
+}
