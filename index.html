@@ -3,6 +3,8 @@
     <title>Crystal Collector Game</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link src="https://code.jquery.com/jquery.js"></link>
+    <link href="assets/javascript/game.js">
 </head>
 <body class="background">
     <div class="headline">
@@ -21,9 +23,9 @@
     </div>
     <div class="randomNumber"></div>
     <div class="winsAndLosses">
-        <p>wins:</p>
+        <p id="winner">wins:</p>
         <br>
-        <p>losses:</p>
+        <p id="loser">losses:</p>
     </div>
     <br>
     <br>
@@ -33,10 +35,10 @@
     <br>
     <br>
     <br>
-    <div class="crystals"><img src="assets/images/crystal_One.png" height="80px" width="60px"></div>
-    <div class="crystals"><img src="assets/images/crystal_Two.jpg" height="80px" width="60px"></div>
-    <div class="crystals"><img src="assets/images/crystal_Three.jpg" height="80px" width="60px"></div>
-    <div class="crystals"><img src="assets/images/crystal_Four.jpeg" height="80px" width="60px"></div>
+    <div class="crystals" id="crystalOne"><img src="assets/images/crystal_One.png" height="80px" width="60px"></div>
+    <div class="crystals" id="crystalTwo"><img src="assets/images/crystal_Two.jpg" height="80px" width="60px"></div>
+    <div class="crystals" id="crystalThree"><img src="assets/images/crystal_Three.jpg" height="80px" width="60px"></div>
+    <div class="crystals" id="crystalFour"><img src="assets/images/crystal_Four.jpeg" height="80px" width="60px"></div>
     <br>
     <br>
     <br>
@@ -47,5 +49,5 @@
     <div class="scoreHeadline">
         <p>Your total score is:</p>
     </div>
-    <div class="score"></div>
+    <div class="score" id="userScore"></div>
 </body>
